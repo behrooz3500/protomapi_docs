@@ -21,7 +21,7 @@
     <tr>
         <td>parent</td>
         <td>int</td>
-        <td>parent group mid</td>
+        <td>person group mid</td>
         <td>✗</td>
     </tr>
 </table>
