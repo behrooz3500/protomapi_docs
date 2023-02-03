@@ -1,0 +1,121 @@
+<h1>Config Table</h1><div style="margin-left:20px;"> 
+<table>
+    <tr>
+        <td><strong>Attribute</strong></td>
+        <td><strong>Type</strong></td>
+        <td><strong>Description</strong></td>
+        <td><strong>Required</strong></td>
+    </tr>
+    <tr>
+        <td>name</td>
+        <td>string(255)</td>
+        <td></td>
+        <td>✓</td>
+    </tr>
+    <tr>
+        <td>app_version</td>
+        <td>string(255)</td>
+        <td>eg: 1.1.1</td>
+        <td>✗</td>
+    </tr>
+    <tr>
+        <td>app_version_int</td>
+        <td>int</td>
+        <td>eg: 111</td>
+        <td>✗</td>
+    </tr>
+    <tr>
+        <td>app_download_link</td>
+        <td>url</td>
+        <td>https://apps...</td>
+        <td>✗</td>
+    </tr>
+    <tr>
+        <td>app_about</td>
+        <td>string(1000)</td>
+        <td></td>
+        <td>✗</td>
+    </tr>
+    <tr>
+        <td>app_changelog</td>
+        <td>string(4000)</td>
+        <td></td>
+        <td>✗</td>
+    </tr>
+    <tr>
+        <td>app_force_update</td>
+        <td>bool</td>
+        <td></td>
+        <td>✗</td>
+    </tr>
+    <tr>
+        <td>app_force_update_note</td>
+        <td>string(1000)</td>
+        <td></td>
+        <td>✗</td>
+    </tr>
+    <tr>
+        <td>support_tel1</td>
+        <td>string(50)</td>
+        <td></td>
+        <td>✗</td>
+    </tr>
+    <tr>
+        <td>support_tel2</td>
+        <td>string(50)</td>
+        <td></td>
+        <td>✗</td>
+    </tr>
+    <tr>
+        <td>support_tel3</td>
+        <td>string(50)</td>
+        <td></td>
+        <td>✗</td>
+    </tr>
+    <tr>
+        <td>support_email</td>
+        <td>string(255)</td>
+        <td></td>
+        <td>✗</td>
+    </tr>
+    <tr>
+        <td>support_address</td>
+        <td>string(500</td>
+        <td></td>
+        <td>✗</td>
+    </tr>
+    <tr>
+        <td>support_online_chat</td>
+        <td>url</td>
+        <td></td>
+        <td>✗</td>
+    </tr>
+</table>
+</div>
+
+
+<div><h1>1- Retrieving Config</h1><div style="margin-left:20px;"> 
+<h3>Details:</h3>
+    <table>
+        <tr>
+            <td><strong>Method</strong></td>
+            <td>GET</td>
+        </tr>
+        <tr>
+            <td><strong>Endpoint</strong></td>
+            <td>/api/config</td>
+        </tr>
+        <tr>
+            <td><strong>Success code</strong></td>
+            <td>200</td>
+        </tr>
+        <tr>
+            <td><strong>Failure code</strong></td>
+            <td>404</td>
+        </tr>
+    </table>
+    <h3>Example:</h3>
+
+<pre><code>r = requests.get('http://domain/api/config')</code></pre>
+</div>
+</div>
