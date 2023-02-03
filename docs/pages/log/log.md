@@ -30,8 +30,9 @@
         <td>
             <ul>
                 <li>person: 12</li>
+                <li>pre_invoice: 100</li>
                 <li>invoice: 102</li>
-                <li>temp_person: 212</li>
+                <li>temp_person: 102</li>
             </ul>
         </td>
         <td>✓</td>
