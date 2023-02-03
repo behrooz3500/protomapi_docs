@@ -349,7 +349,7 @@
 
 <div>
 <h1>1- Creating PreInvoice:</h1><div style="margin-left:20px;">
-h3>Details:</h3>
+<h3>Details:</h3>
     <table>
         <tr>
             <td><strong>Method</strong></td>

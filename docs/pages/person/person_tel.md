@@ -148,7 +148,8 @@ r = requests.get('http://domain/api/person_tels', params=params)
     </table>
 <h5>Example:</h5>
 <pre><code>r = requests.get('http://domain/api/person_tels/66')</code></pre>
-
+</div>
+</div>
 
 <div>
 <h1>4- Updating PersonTel</h1><div style="margin-left:20px;">

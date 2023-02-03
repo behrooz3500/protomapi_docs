@@ -155,7 +155,7 @@ r = requests.post('http://domain/api/products', json=data)</code></pre>
 
 
 
-<div><h1> Listing  Product</h1><div style="margin-left:20px;">
+<div><h1>2- Listing  Product</h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
