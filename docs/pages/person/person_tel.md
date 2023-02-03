@@ -174,7 +174,7 @@ r = requests.get('http://domain/api/person_tels', params=params)
 <h5>Example:</h5>
 <pre><code>
 data = {
-    'tel': '0987654321
+    'tel': '0987654321'
 }
 
 r = requests.put('http://domain/api/person_tels/66', json=data)

@@ -170,7 +170,7 @@ r = requests.get('http://domain/api/person_groups', params=params)
 
 <pre><code>
 data = {
-    'name': 'some new name''
+    'name': 'some new name'
 }
 
 r = requests.put('http://domain/api/person_groups/66', json=data)
