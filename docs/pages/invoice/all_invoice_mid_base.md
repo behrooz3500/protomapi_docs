@@ -32,7 +32,6 @@
                 <li>pre:  0</li>
                 <li>buy:  1</li>
                 <li>sell: 2</li>
-                <li>read-only</li>
             </ul>
         </td>
         <td>✗</td>
