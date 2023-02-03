@@ -1,4 +1,4 @@
-<h1>Permission Table</h1><div style="margin-left:20px;"> 
+<h1 style="background-color:Gainsboro;">Permission Table</h1><div style="margin-left:20px;"> 
 <table>
     <tr>
         <td><strong>Attribute</strong></td>
@@ -28,7 +28,7 @@
 </div>
 
 
-<div><h1>1- Listing Permissions</h1><div style="margin-left:20px;"> 
+<div><h1 style="background-color:Gainsboro;">1- Listing Permissions</h1><div style="margin-left:20px;"> 
 <h3>Details:</h3>
     <table>
         <tr>
@@ -56,7 +56,7 @@
 
 
 
-<div><h1>2- Retrieving A Permission</h1><div style="margin-left:20px;"> 
+<div><h1 style="background-color:Gainsboro;">2- Retrieving A Permission</h1><div style="margin-left:20px;"> 
 <h3>Details:</h3>
     <table>
         <tr>

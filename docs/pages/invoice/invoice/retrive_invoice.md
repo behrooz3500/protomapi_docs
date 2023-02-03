@@ -1,5 +1,5 @@
 <pre>
-<div><h1> Retrieving A invoice</h1><div style="margin-left:20px;"> =================================
+<div><h1 style="background-color:Gainsboro;"> Retrieving A invoice</h1><div style="margin-left:20px;"> =================================
 --method: GET
 
 --endpoint: /api/invoices/{id}

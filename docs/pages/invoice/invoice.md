@@ -1,4 +1,4 @@
-<h1>Invoice Table:</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">Invoice Table:</h1><div style="margin-left:20px;">
 <table>
     <tr>
         <td><strong>Attribute</strong></td>
@@ -225,7 +225,7 @@
 </div>
 
 
-<h1>InvoiceItem Table:</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">InvoiceItem Table:</h1><div style="margin-left:20px;">
 <table>
     <tr>
         <td><strong>Attribute</strong></td>
@@ -351,7 +351,7 @@
 </div>
 
 <div>
-<h1>1- Creating An Invoice:</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">1- Creating An Invoice:</h1><div style="margin-left:20px;">
     <h3>Details:</h3>
     <table>
         <tr>
@@ -414,7 +414,7 @@ r = requests.post('http://domain/api/invoices', json=data)
 </div></div>
 
 <div>
-<h1>2- Listing Invoices:</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">2- Listing Invoices:</h1><div style="margin-left:20px;">
     <h3>Details:</h3>
     <table>
         <tr>
@@ -472,7 +472,7 @@ r = requests.get('http://domain/api/invoices', params=params)</code></pre>
 </div></div>
 
 <div>
-<h1>3- Retrieving An Invoice:</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">3- Retrieving An Invoice:</h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -497,7 +497,7 @@ r = requests.get('http://domain/api/invoices', params=params)</code></pre>
 </div></div>
 
 <div>
-<h1>4- Updating An Invoice</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">4- Updating An Invoice</h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -543,7 +543,7 @@ r = requests.put('http://domain/api/invoices/66', json=data)
 </div></div>
 
 <div>
-<h1>5- Deleting An Invoice:</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">5- Deleting An Invoice:</h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -569,7 +569,7 @@ r = requests.put('http://domain/api/invoices/66', json=data)
 
 
 <div>
-<h1>6- Searching For Invoices</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">6- Searching For Invoices</h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -637,7 +637,7 @@ r = requests.get('http://domain/api/invoices/search', params=params)
 </div></div>
 
 <div>
-<h1>7- Listing Invoice Items</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">7- Listing Invoice Items</h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -663,7 +663,7 @@ r = requests.get('http://domain/api/invoices/search', params=params)
 
 
 <div>
-<h1>8- Adding A New Item To Invoice </h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">8- Adding A New Item To Invoice </h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -704,7 +704,7 @@ r = requests.post('http://domain/api/invoices/66/items', json=data)
 
 
 <div>
-<h1>9- Getting An Invoice Item:</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">9- Getting An Invoice Item:</h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -729,7 +729,7 @@ r = requests.post('http://domain/api/invoices/66/items', json=data)
 
 
 <div>
-<h1>10- Updating An Invoice Item:</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">10- Updating An Invoice Item:</h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -763,7 +763,7 @@ r = requests.put('http://domain/api/invoices/66/items/6', json=data)
 
 
 <div>
-<h1>11- Deleting An Invoice Item:</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">11- Deleting An Invoice Item:</h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>

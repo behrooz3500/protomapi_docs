@@ -1,4 +1,4 @@
-<h1>Config Table</h1><div style="margin-left:20px;"> 
+<h1 style="background-color:Gainsboro;">Config Table</h1><div style="margin-left:20px;"> 
 <table>
     <tr>
         <td><strong>Attribute</strong></td>
@@ -94,7 +94,7 @@
 </div>
 
 
-<div><h1>1- Retrieving Config</h1><div style="margin-left:20px;"> 
+<div><h1 style="background-color:Gainsboro;">1- Retrieving Config</h1><div style="margin-left:20px;"> 
 <h3>Details:</h3>
     <table>
         <tr>

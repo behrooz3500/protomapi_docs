@@ -1,4 +1,4 @@
-<h1>Invoice Table:</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">Invoice Table:</h1><div style="margin-left:20px;">
 <table>
     <tr>
         <td><strong>Attribute</strong></td>
@@ -224,7 +224,7 @@
 </table>
 </div>
 
-<h1>InvoiceItem Table:</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">InvoiceItem Table:</h1><div style="margin-left:20px;">
 <table>
     <tr>
         <td><strong>Attribute</strong></td>
@@ -351,7 +351,7 @@
 
 
 <div>
-<h1>1- Retrieving An Invoice:</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">1- Retrieving An Invoice:</h1><div style="margin-left:20px;">
     <h3>Details:</h3>
     <table>
         <tr>
@@ -378,7 +378,7 @@
 
 
 <div>
-<h1>2- Updating An Invoice:</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">2- Updating An Invoice:</h1><div style="margin-left:20px;">
     <h3>Details:</h3>
     <table>
         <tr>
@@ -427,7 +427,7 @@ r = requests.put('http://domain/api/all_invoices_mid_base/66', json=data)
 
 
 <div>
-<h1>3- Deleting An Invoice:</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">3- Deleting An Invoice:</h1><div style="margin-left:20px;">
     <h3>Details:</h3>
     <table>
         <tr>

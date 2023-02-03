@@ -1,4 +1,4 @@
-<h1>ProductCategory Table</h1><div style="margin-left:20px;"> 
+<h1 style="background-color:Gainsboro;">ProductCategory Table</h1><div style="margin-left:20px;"> 
 <table>
     <tr>
         <td><strong>Attribute</strong></td>
@@ -34,7 +34,7 @@
 </div>
 
 
-<div><h1>1- Creating A ProductCategory</h1><div style="margin-left:20px;"> 
+<div><h1 style="background-color:Gainsboro;">1- Creating A ProductCategory</h1><div style="margin-left:20px;"> 
 <h3>Details:</h3>
     <table>
         <tr>
@@ -70,7 +70,7 @@ r = requests.post('http://domain/api/product_categories', json=data)</code></pre
 
 
 
-<div><h1>2- Listing ProductCategories</h1><div style="margin-left:20px;"> 
+<div><h1 style="background-color:Gainsboro;">2- Listing ProductCategories</h1><div style="margin-left:20px;"> 
 <h3>Details:</h3>
     <table>
         <tr>
@@ -125,7 +125,7 @@ r = requests.get('http://domain/api/product_categories', params=params)</code></
 
 
 <div>
-<h1>3- Retrieving A ProductCategory</h1><div style="margin-left:20px;"> 
+<h1 style="background-color:Gainsboro;">3- Retrieving A ProductCategory</h1><div style="margin-left:20px;"> 
 <h3>Details:</h3>
     <table>
         <tr>
@@ -154,7 +154,7 @@ r = requests.get('http://domain/api/product_categories', params=params)</code></
 
 
 <div>
-<h1>4- Updating A ProductCategory</h1><div style="margin-left:20px;"> 
+<h1 style="background-color:Gainsboro;">4- Updating A ProductCategory</h1><div style="margin-left:20px;"> 
 <h3>Details:</h3>
     <table>
         <tr>
@@ -187,7 +187,7 @@ r = requests.put('http://domain/api/product_categories/66', json=data)</code></p
 
 
 <div>
-<h1>5- Deleting A  ProductCategory</h1><div style="margin-left:20px;"> 
+<h1 style="background-color:Gainsboro;">5- Deleting A  ProductCategory</h1><div style="margin-left:20px;"> 
 <h3>Details:</h3>
     <table>
         <tr>

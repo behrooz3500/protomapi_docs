@@ -1,4 +1,4 @@
-<h1>Log Table</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">Log Table</h1><div style="margin-left:20px;">
 <table>
     <tr>
         <td><strong>Attribute</strong</td>
@@ -53,7 +53,7 @@
 </div>
 
 
-<h1>LogMeta Table</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">LogMeta Table</h1><div style="margin-left:20px;">
 <table>
     <tr>
         <td><strong>Attribute</strong</td>
@@ -84,7 +84,7 @@
 
 
 <div>
-<h1>1- Listing Logs:</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">1- Listing Logs:</h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -111,7 +111,7 @@
 
 
 <div>
-<h1> 2- Deleting A Log:</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;"> 2- Deleting A Log:</h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>

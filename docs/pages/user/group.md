@@ -1,4 +1,4 @@
-<h1>Group Table</h1><div style="margin-left:20px;"> 
+<h1 style="background-color:Gainsboro;">Group Table</h1><div style="margin-left:20px;"> 
 <table>
     <tr>
         <td><strong>Attribute</strong></td>
@@ -22,7 +22,7 @@
 </div>
 
 
-<div><h1>1- Creating A Group</h1><div style="margin-left:20px;"> 
+<div><h1 style="background-color:Gainsboro;">1- Creating A Group</h1><div style="margin-left:20px;"> 
 <h3>Details:</h3>
     <table>
         <tr>
@@ -55,7 +55,7 @@ r = requests.post('http://domain/api/groups', json=data)</code></pre>
 
 
 
-<div><h1>2- Listing Groups</h1><div style="margin-left:20px;"> 
+<div><h1 style="background-color:Gainsboro;">2- Listing Groups</h1><div style="margin-left:20px;"> 
 <h3>Details:</h3>
     <table>
         <tr>
@@ -109,7 +109,7 @@ r = requests.get('http://domain/api/groups', params=params)</code></pre>
 
 
 
-<div><h1>3- Retrieving A Group</h1><div style="margin-left:20px;"> 
+<div><h1 style="background-color:Gainsboro;">3- Retrieving A Group</h1><div style="margin-left:20px;"> 
 <h3>Details:</h3>
     <table>
         <tr>
@@ -137,7 +137,7 @@ r = requests.get('http://domain/api/groups', params=params)</code></pre>
 
 
 
-<div><h1>4- Updating A Group</h1><div style="margin-left:20px;"> 
+<div><h1 style="background-color:Gainsboro;">4- Updating A Group</h1><div style="margin-left:20px;"> 
 <h3>Details:</h3>
     <table>
         <tr>
@@ -170,7 +170,7 @@ r = requests.put('http://domain/api/groups/66', json=data)</code></pre>
 
 
 
-<div><h1>5- Deleting A Group</h1><div style="margin-left:20px;"> 
+<div><h1 style="background-color:Gainsboro;">5- Deleting A Group</h1><div style="margin-left:20px;"> 
 <h3>Details:</h3>
     <table>
         <tr>
@@ -199,7 +199,7 @@ r = requests.put('http://domain/api/groups/66', json=data)</code></pre>
 
 
 
-<div><h1>6- Listing Group Permissions</h1><div style="margin-left:20px;"> 
+<div><h1 style="background-color:Gainsboro;">6- Listing Group Permissions</h1><div style="margin-left:20px;"> 
 <h3>Details:</h3>
     <table>
         <tr>
@@ -227,7 +227,7 @@ r = requests.put('http://domain/api/groups/66', json=data)</code></pre>
 
 
 
-<div><h1>7- Adding A Group Permissions</h1><div style="margin-left:20px;"> 
+<div><h1 style="background-color:Gainsboro;">7- Adding A Group Permissions</h1><div style="margin-left:20px;"> 
 <h3>Details:</h3>
     <table>
         <tr>
@@ -259,7 +259,7 @@ r = requests.put('http://domain/api/groups/66/permissions', json=data)</code></p
 </div>
 
 
-<div><h1>8- Removing Group Permissions</h1><div style="margin-left:20px;"> 
+<div><h1 style="background-color:Gainsboro;">8- Removing Group Permissions</h1><div style="margin-left:20px;"> 
 <h3>Details:</h3>
     <table>
         <tr>

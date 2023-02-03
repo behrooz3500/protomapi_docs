@@ -1,4 +1,4 @@
-<h1>PersonGroup Table</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">PersonGroup Table</h1><div style="margin-left:20px;">
 <table>
     <tr>
         <td><strong>Attribute</strong</td>
@@ -29,7 +29,7 @@
 
 
 <div>
-<h1>1- Creating A PersonGroup:</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">1- Creating A PersonGroup:</h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -64,7 +64,7 @@ r = requests.post('http://domain/api/person_groups', json=data)
 
 
 <div>
-<h1>2- Listing PersonGroups:</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">2- Listing PersonGroups:</h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -119,7 +119,7 @@ r = requests.get('http://domain/api/person_groups', params=params)
 
 
 <div>
-<h1>3- Retrieving A PersonGroup</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">3- Retrieving A PersonGroup</h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -146,7 +146,7 @@ r = requests.get('http://domain/api/person_groups', params=params)
 
 
 <div>
-<h1>4- Updating A PersonGroup</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">4- Updating A PersonGroup</h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -179,7 +179,7 @@ r = requests.put('http://domain/api/person_groups/66', json=data)
 
 
 <div>
-<h1>5- Deleting A PersonGroup</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">5- Deleting A PersonGroup</h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>

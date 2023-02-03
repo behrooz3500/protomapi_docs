@@ -1,4 +1,4 @@
-<h1>User Table</h1><div style="margin-left:20px;"> 
+<h1 style="background-color:Gainsboro;">User Table</h1><div style="margin-left:20px;"> 
 <table>
     <tr>
         <td><strong>Attribute</strong></td>
@@ -53,7 +53,7 @@
 </div>
 
 
-<div><h1>1- Signing Up A User</h1><div style="margin-left:20px;"> 
+<div><h1 style="background-color:Gainsboro;">1- Signing Up A User</h1><div style="margin-left:20px;"> 
 <h3>Details:</h3>
     <table>
         <tr>
@@ -90,7 +90,7 @@ r = requests.post('http://domain/api/users/signup', json=data)</code></pre>
 
 
 
-<div><h1>2- User SignIn</h1><div style="margin-left:20px;"> 
+<div><h1 style="background-color:Gainsboro;">2- User SignIn</h1><div style="margin-left:20px;"> 
 <h3>Details:</h3>
     <table>
         <tr>
@@ -152,7 +152,7 @@ r = requests.get/post/put/delete('endpoint', headers=headers, json=data, params=
 
 
 
-<div><h1>3- Listing Users</h1><div style="margin-left:20px;"> 
+<div><h1 style="background-color:Gainsboro;">3- Listing Users</h1><div style="margin-left:20px;"> 
 <h3>Details:</h3>
     <table>
         <tr>
@@ -206,7 +206,7 @@ r = requests.get('http://domain/api/users', params=params)</code></pre>
 </div>
 
 
-<div><h1>4- Retrieving A User</h1><div style="margin-left:20px;"> 
+<div><h1 style="background-color:Gainsboro;">4- Retrieving A User</h1><div style="margin-left:20px;"> 
 <h3>Details:</h3>
     <table>
         <tr>
@@ -234,7 +234,7 @@ r = requests.get('http://domain/api/users', params=params)</code></pre>
 
 
 
-<div><h1>5- Updating A User</h1><div style="margin-left:20px;"> 
+<div><h1 style="background-color:Gainsboro;">5- Updating A User</h1><div style="margin-left:20px;"> 
 <h3>Details:</h3>
     <table>
         <tr>
@@ -266,7 +266,7 @@ r = requests.put('http://domain/api/users/66', json=data)</code></pre>
 </div>
 
 
-<div><h1>6- Deleting A  User</h1><div style="margin-left:20px;"> 
+<div><h1 style="background-color:Gainsboro;">6- Deleting A  User</h1><div style="margin-left:20px;"> 
 <h3>Details:</h3>
     <table>
         <tr>
@@ -294,7 +294,7 @@ r = requests.put('http://domain/api/users/66', json=data)</code></pre>
 
 
 
-<div><h1>7- Listing User Permissions</h1><div style="margin-left:20px;"> 
+<div><h1 style="background-color:Gainsboro;">7- Listing User Permissions</h1><div style="margin-left:20px;"> 
 <h3>Details:</h3>
     <table>
         <tr>
@@ -322,7 +322,7 @@ r = requests.put('http://domain/api/users/66', json=data)</code></pre>
 
 
 
-<div><h1>8- Adding User Permissions</h1><div style="margin-left:20px;"> 
+<div><h1 style="background-color:Gainsboro;">8- Adding User Permissions</h1><div style="margin-left:20px;"> 
 <h3>Details:</h3>
     <table>
         <tr>
@@ -354,7 +354,7 @@ r = requests.put('http://domain/api/users/66/permissions', json=data)</code></pr
 </div>
 
 
-<div><h1>9- Removing User Permissions</h1><div style="margin-left:20px;"> 
+<div><h1 style="background-color:Gainsboro;">9- Removing User Permissions</h1><div style="margin-left:20px;"> 
 <h3>Details:</h3>
     <table>
         <tr>

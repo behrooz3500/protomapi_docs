@@ -1,4 +1,4 @@
-<h1>Repository Table</h1><div style="margin-left:20px;"> 
+<h1 style="background-color:Gainsboro;">Repository Table</h1><div style="margin-left:20px;"> 
 <table>
     <tr>
         <td><strong>Attribute</strong></td>
@@ -22,7 +22,7 @@
 </div>
 
 
-<div><h1>1- Creating A Repository</h1><div style="margin-left:20px;"> 
+<div><h1 style="background-color:Gainsboro;">1- Creating A Repository</h1><div style="margin-left:20px;"> 
 <h3>Details:</h3>
     <table>
         <tr>
@@ -56,7 +56,7 @@ r = requests.post('http://domain/api/repositories', json=data)</code></pre>
 
 
 
-<div><h1>2- Listing Repositories</h1><div style="margin-left:20px;"> 
+<div><h1 style="background-color:Gainsboro;">2- Listing Repositories</h1><div style="margin-left:20px;"> 
 <h3>Details:</h3>
     <table>
         <tr>
@@ -109,7 +109,7 @@ r = requests.get('http://domain/api/repositories', params=params)</code></pre>
 </div>
 
 
-<div><h1>3- Retrieving A Repository</h1><div style="margin-left:20px;"> 
+<div><h1 style="background-color:Gainsboro;">3- Retrieving A Repository</h1><div style="margin-left:20px;"> 
 <h3>Details:</h3>
     <table>
         <tr>
@@ -137,7 +137,7 @@ r = requests.get('http://domain/api/repositories', params=params)</code></pre>
 
 
 
-<div><h1>4- Updating A Repository</h1><div style="margin-left:20px;"> 
+<div><h1 style="background-color:Gainsboro;">4- Updating A Repository</h1><div style="margin-left:20px;"> 
 <h3>Details:</h3>
     <table>
         <tr>
@@ -168,7 +168,7 @@ r = requests.put('http://domain/api/repositories/66', json=data)</code></pre>
 </div>
 
 
-<div><h1>5- Deleting A  Repository</h1><div style="margin-left:20px;"> 
+<div><h1 style="background-color:Gainsboro;">5- Deleting A  Repository</h1><div style="margin-left:20px;"> 
 <h3>Details:</h3>
     <table>
         <tr>

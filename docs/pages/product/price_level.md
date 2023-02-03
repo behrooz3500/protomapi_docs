@@ -1,4 +1,4 @@
-<h1>PriceLevel Table</h1><div style="margin-left:20px;"> 
+<h1 style="background-color:Gainsboro;">PriceLevel Table</h1><div style="margin-left:20px;"> 
 <table>
     <tr>
         <td><strong>Attribute</strong></td>
@@ -23,7 +23,7 @@
 
 
 <div>
-<h1>1- Creating A PriceLevel</h1><div style="margin-left:20px;"> 
+<h1 style="background-color:Gainsboro;">1- Creating A PriceLevel</h1><div style="margin-left:20px;"> 
 <h3>Details:</h3>
     <table>
         <tr>
@@ -59,7 +59,7 @@ r = requests.post('http://domain/api/price_levels', json=data)
 
 
 <div>
-<h1>2- Listing PriceLevels</h1><div style="margin-left:20px;"> 
+<h1 style="background-color:Gainsboro;">2- Listing PriceLevels</h1><div style="margin-left:20px;"> 
 <h3>Details:</h3>
     <table>
         <tr>
@@ -113,7 +113,7 @@ r = requests.get('http://domain/api/price_levels', params=params)</code></pre>
 
 
 
-<div><h1>3- Retrieving A PriceLevel</h1><div style="margin-left:20px;"> 
+<div><h1 style="background-color:Gainsboro;">3- Retrieving A PriceLevel</h1><div style="margin-left:20px;"> 
 <h3>Details:</h3>
     <table>
         <tr>
@@ -141,7 +141,7 @@ r = requests.get('http://domain/api/price_levels', params=params)</code></pre>
 
 
 
-<div><h1>4- Updating A PriceLevel</h1><div style="margin-left:20px;"> 
+<div><h1 style="background-color:Gainsboro;">4- Updating A PriceLevel</h1><div style="margin-left:20px;"> 
 <h3>Details:</h3>
     <table>
         <tr>
@@ -175,7 +175,7 @@ r = requests.put('http://domain/api/price_levels/66', json=data)</code></pre>
 
 
 <div>
-<h1>5- Deleting A  PriceLevel</h1><div style="margin-left:20px;"> 
+<h1 style="background-color:Gainsboro;">5- Deleting A  PriceLevel</h1><div style="margin-left:20px;"> 
 <h3>Details:</h3>
     <table>
         <tr>

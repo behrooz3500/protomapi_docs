@@ -1,4 +1,4 @@
-<h1>Invoice Table:</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">Invoice Table:</h1><div style="margin-left:20px;">
 <table>
     <tr>
         <td><strong>Attribute</strong></td>
@@ -223,7 +223,7 @@
     </tr>
 </table>
 
-<h1>InvoiceItem Table:</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">InvoiceItem Table:</h1><div style="margin-left:20px;">
 <table>
     <tr>
         <td><strong>Attribute</strong></td>
@@ -348,7 +348,7 @@
 </table>
 
 <div>
-<h1>1- Creating PreInvoice:</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">1- Creating PreInvoice:</h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -412,7 +412,7 @@ r = requests.post('http://domain/api/invoices', json=data)
 
 
 <div>
-<h1>2- Listing PreInvoices:</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">2- Listing PreInvoices:</h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -475,7 +475,7 @@ r = requests.get('http://domain/api/pre_invoices', params=params)
 
 
 <div>
-<h1>3- Retrievng A PreInvoice:</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">3- Retrievng A PreInvoice:</h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -501,7 +501,7 @@ r = requests.get('http://domain/api/pre_invoices', params=params)
 
 
 <div>
-<h1>4- Update A PreInvoice</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">4- Update A PreInvoice</h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -548,7 +548,7 @@ r = requests.put('http://domain/api/pre_invoices/66', json=data)
 
 
 <div>
-<h1>5- Deleting A PreInvoice:</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">5- Deleting A PreInvoice:</h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -575,7 +575,7 @@ r = requests.put('http://domain/api/pre_invoices/66', json=data)
 
 
 <div>
-<h1>6- Searching For A PreInvoices:</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">6- Searching For A PreInvoices:</h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -644,7 +644,7 @@ r = requests.get('http://domain/api/pre_invoices/search', params=params)
 
 
 <div>
-<h1>7- Listing PreInvoice Items:</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">7- Listing PreInvoice Items:</h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -670,7 +670,7 @@ r = requests.get('http://domain/api/pre_invoices/search', params=params)
 
 
 <div>
-<h1>8- Adding A New Item To PreInvoices:</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">8- Adding A New Item To PreInvoices:</h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -711,7 +711,7 @@ r = requests.post('http://domain/api/pre_invoices/66/items', json=data)
 
 
 <div>
-<h1>9- Retrieving A PreInvoice Item: </h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">9- Retrieving A PreInvoice Item: </h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -737,7 +737,7 @@ r = requests.post('http://domain/api/pre_invoices/66/items', json=data)
 
 
 <div>
-<h1>10- Updating A PreInvoice Item:</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">10- Updating A PreInvoice Item:</h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -771,7 +771,7 @@ r = requests.put('http://domain/api/pre_invoices/66/items/6', json=data)
 
 
 <div>
-<h1>11- Deleting A PreInvoice Item:</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">11- Deleting A PreInvoice Item:</h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>

@@ -1,4 +1,4 @@
-<h1> Person Table</h1>
+<h1 style="background-color:Gainsboro;"> Person Table</h1>
 <div style="margin-left:20px;">
 <table>
     <tr>
@@ -186,7 +186,7 @@
 
 
 <div>
-<h1>1- Creating A Person: </h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">1- Creating A Person: </h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -231,7 +231,7 @@ r = requests.post('http://domain/api/persons', json=data)</code></pre>
 
 
 <div>
-<h1>2- Listing Persons: </h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">2- Listing Persons: </h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -338,7 +338,7 @@ r = requests.get('http://domain/api/persons', params=params)
 
 
 <div>
-<h1>3- Retrieving A Person: </h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">3- Retrieving A Person: </h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -366,7 +366,7 @@ r = requests.get('http://domain/api/persons', params=params)
 
 
 <div>
-<h1>4- Updating A Person: </h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">4- Updating A Person: </h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -401,7 +401,7 @@ r = requests.put('http://domain/api/persons/66', json=data)
 
 
 <div>
-<h1>5- Deleting A Person: </h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">5- Deleting A Person: </h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -429,7 +429,7 @@ r = requests.put('http://domain/api/persons/66', json=data)
 
 
 <div>
-<h1>6- Searching For A Person: </h1>
+<h1 style="background-color:Gainsboro;">6- Searching For A Person: </h1>
 <div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>

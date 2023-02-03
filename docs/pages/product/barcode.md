@@ -1,4 +1,4 @@
-<h1>Barcode Table</h1><div style="margin-left:20px;"> 
+<h1 style="background-color:Gainsboro;">Barcode Table</h1><div style="margin-left:20px;"> 
 <table>
     <tr>
         <td><strong>Attribute</strong></td>
@@ -29,7 +29,7 @@
 
 
 <div>
-<h1>1- Creating A Barcode</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">1- Creating A Barcode</h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -65,7 +65,7 @@ r = requests.post('http://domain/api/barcodes', json=data)
 
 
 <div>
-<h1>2- Listing Barcodes</h1><div style="margin-left:20px;"> 
+<h1 style="background-color:Gainsboro;">2- Listing Barcodes</h1><div style="margin-left:20px;"> 
 <h3>Details:</h3>
     <table>
         <tr>
@@ -121,7 +121,7 @@ r = requests.get('http://domain/api/barcodes', params=params)
 
 
 <div>
-<h1>3- Retrieving A Barcode</h1><div style="margin-left:20px;"> 
+<h1 style="background-color:Gainsboro;">3- Retrieving A Barcode</h1><div style="margin-left:20px;"> 
 <table>
         <tr>
             <td><strong>Method</strong></td>
@@ -147,7 +147,7 @@ r = requests.get('http://domain/api/barcodes', params=params)
 
 
 
-<div><h1>4- Updating A Barcode</h1><div style="margin-left:20px;"> 
+<div><h1 style="background-color:Gainsboro;">4- Updating A Barcode</h1><div style="margin-left:20px;"> 
 <table>
         <tr>
             <td><strong>Method</strong></td>
@@ -179,7 +179,7 @@ r = requests.put('http://domain/api/barcodes/66', json=data)
 
 
 <div>
-<h1>5- Deleting A Barcode</h1><div style="margin-left:20px;"> 
+<h1 style="background-color:Gainsboro;">5- Deleting A Barcode</h1><div style="margin-left:20px;"> 
 <table>
         <tr>
             <td><strong>Method</strong></td>
