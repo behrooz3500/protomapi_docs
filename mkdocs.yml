@@ -4,24 +4,24 @@ site_url: "https://protomapi.readthedocs.io/en/latest/"
 # plugins: []
 
 nav:
-  - Index: 
+  - Index Page: 
     - index: "index.md"
-  - Config:
+  - Config Model:
     - config: "pages/config/config.md"
-  - Invoice:
+  - Invoice Models:
+    - pre_invoice: "pages/invoice/pre_invoice.md"
+    - invoice: "pages/invoice/invoice.md"
     - all_invoice_mid: "pages/invoice/all_invoice_mid_base.md"
     - all_invoice: "pages/invoice/all_invoice.md"
-    - invoice: "pages/invoice/invoice.md"
-    - pre_invoice: "pages/invoice/pre_invoice.md"
-  - Log:
+  - Log Model:
     - log: "pages/log/log.md"
-  - Person:
+  - Person Models:
+    - person: "pages/person/person.md"
+    - temp_person: "pages/person/temp_person.md"
     - person_group: "pages/person/person_group.md"
     - person_tel: "pages/person/person_tel.md"
-    - person: "pages/person/person.md"
     - portion: "pages/person/portion.md"
-    - temp_person: "pages/person/temp_person.md"
-  - Product:
+  - Product Models:
     - barcode: "pages/product/barcode.md"
     - price_level: "pages/product/price_level.md"
     - price: "pages/product/price.md"
@@ -29,7 +29,7 @@ nav:
     - product: "pages/product/product.md"
     - repository: "pages/product/repository.md"
     - unit: "pages/product/unit.md"
-  - User:
+  - User Models:
     - group: "pages/user/group.md"
     - permission: "pages/user/permission.md"
     - user: "pages/user/user.md"
