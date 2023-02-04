@@ -41,46 +41,46 @@
       </div>
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <p class="caption"><span class="caption-text">Index</span></p>
+              <p class="caption"><span class="caption-text">Index Page</span></p>
               <ul>
                   <li class="toctree-l1"><a class="reference internal" href="../../..">index</a>
                   </li>
               </ul>
-              <p class="caption"><span class="caption-text">Config</span></p>
+              <p class="caption"><span class="caption-text">Config Model</span></p>
               <ul>
                   <li class="toctree-l1"><a class="reference internal" href="../../config/config/">config</a>
                   </li>
               </ul>
-              <p class="caption"><span class="caption-text">Invoice</span></p>
+              <p class="caption"><span class="caption-text">Invoice Models</span></p>
               <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../invoice/pre_invoice/">pre_invoice</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../invoice/invoice/">invoice</a>
+                  </li>
                   <li class="toctree-l1"><a class="reference internal" href="../../invoice/all_invoice_mid_base/">all_invoice_mid</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../../invoice/all_invoice/">all_invoice</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../invoice/invoice/">invoice</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../invoice/pre_invoice/">pre_invoice</a>
-                  </li>
               </ul>
-              <p class="caption"><span class="caption-text">Log</span></p>
+              <p class="caption"><span class="caption-text">Log Model</span></p>
               <ul>
                   <li class="toctree-l1"><a class="reference internal" href="../../log/log/">log</a>
                   </li>
               </ul>
-              <p class="caption"><span class="caption-text">Person</span></p>
+              <p class="caption"><span class="caption-text">Person Models</span></p>
               <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../person/">person</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../temp_person/">temp_person</a>
+                  </li>
                   <li class="toctree-l1"><a class="reference internal" href="../person_group/">person_group</a>
                   </li>
                   <li class="toctree-l1 current"><a class="reference internal current" href="./">person_tel</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../person/">person</a>
-                  </li>
                   <li class="toctree-l1"><a class="reference internal" href="../portion/">portion</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../temp_person/">temp_person</a>
-                  </li>
               </ul>
-              <p class="caption"><span class="caption-text">Product</span></p>
+              <p class="caption"><span class="caption-text">Product Models</span></p>
               <ul>
                   <li class="toctree-l1"><a class="reference internal" href="../../product/barcode/">barcode</a>
                   </li>
@@ -97,7 +97,7 @@
                   <li class="toctree-l1"><a class="reference internal" href="../../product/unit/">unit</a>
                   </li>
               </ul>
-              <p class="caption"><span class="caption-text">User</span></p>
+              <p class="caption"><span class="caption-text">User Models</span></p>
               <ul>
                   <li class="toctree-l1"><a class="reference internal" href="../../user/group/">group</a>
                   </li>
@@ -120,7 +120,7 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href="../../.." class="icon icon-home" alt="Docs"></a> &raquo;</li>
-          <li>Person &raquo;</li>
+          <li>Person Models &raquo;</li>
       <li>person_tel</li>
     <li class="wy-breadcrumbs-aside">
     </li>
@@ -130,7 +130,7 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1>PersonTel Table</h1>
+                <h1 style="background-color:Gainsboro;">PersonTel Table</h1>
 <div style="margin-left:20px;">
 <table>
     <tr>
@@ -167,7 +167,7 @@
 </div>
 
 <div>
-<h1>1- Create A PersonTel</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">1- Create A PersonTel</h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -202,7 +202,7 @@ r = requests.post('http://domain/api/person_tels', json=data)
 </div></div>
 
 <div>
-<h1>2- Listing PersonTels</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">2- Listing PersonTels</h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -255,7 +255,7 @@ r = requests.get('http://domain/api/person_tels', params=params)
 </div></div>
 
 <div>
-<h1>3- Retrieving PersonTel</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">3- Retrieving PersonTel</h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -277,10 +277,11 @@ r = requests.get('http://domain/api/person_tels', params=params)
     </table>
 <h5>Example:</h5>
 <pre><code>r = requests.get('http://domain/api/person_tels/66')</code></pre>
-
+</div>
+</div>
 
 <div>
-<h1>4- Updating PersonTel</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">4- Updating PersonTel</h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -303,16 +304,15 @@ r = requests.get('http://domain/api/person_tels', params=params)
 <h5>Example:</h5>
 <pre><code>
 data = {
-    'tel': '0987654321
+    'tel': '0987654321'
 }
 
 r = requests.put('http://domain/api/person_tels/66', json=data)
 </code></pre>
 </div></div>
 
-
 <div>
-<h1>5- Deleting PersonTel</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">5- Deleting PersonTel</h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -340,7 +340,7 @@ r = requests.put('http://domain/api/person_tels/66', json=data)
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
         <a href="../person_group/" class="btn btn-neutral float-left" title="person_group"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-        <a href="../person/" class="btn btn-neutral float-right" title="person">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../portion/" class="btn btn-neutral float-right" title="portion">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -366,7 +366,7 @@ r = requests.put('http://domain/api/person_tels/66', json=data)
       <span><a href="../person_group/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
-      <span><a href="../person/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="../portion/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>

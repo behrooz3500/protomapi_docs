@@ -41,46 +41,46 @@
       </div>
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <p class="caption"><span class="caption-text">Index</span></p>
+              <p class="caption"><span class="caption-text">Index Page</span></p>
               <ul>
                   <li class="toctree-l1"><a class="reference internal" href="../../..">index</a>
                   </li>
               </ul>
-              <p class="caption"><span class="caption-text">Config</span></p>
+              <p class="caption"><span class="caption-text">Config Model</span></p>
               <ul>
                   <li class="toctree-l1"><a class="reference internal" href="../../config/config/">config</a>
                   </li>
               </ul>
-              <p class="caption"><span class="caption-text">Invoice</span></p>
+              <p class="caption"><span class="caption-text">Invoice Models</span></p>
               <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../pre_invoice/">pre_invoice</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">invoice</a>
+                  </li>
                   <li class="toctree-l1"><a class="reference internal" href="../all_invoice_mid_base/">all_invoice_mid</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../all_invoice/">all_invoice</a>
                   </li>
-                  <li class="toctree-l1 current"><a class="reference internal current" href="./">invoice</a>
-                  </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../pre_invoice/">pre_invoice</a>
-                  </li>
               </ul>
-              <p class="caption"><span class="caption-text">Log</span></p>
+              <p class="caption"><span class="caption-text">Log Model</span></p>
               <ul>
                   <li class="toctree-l1"><a class="reference internal" href="../../log/log/">log</a>
                   </li>
               </ul>
-              <p class="caption"><span class="caption-text">Person</span></p>
+              <p class="caption"><span class="caption-text">Person Models</span></p>
               <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../person/person/">person</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../person/temp_person/">temp_person</a>
+                  </li>
                   <li class="toctree-l1"><a class="reference internal" href="../../person/person_group/">person_group</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../../person/person_tel/">person_tel</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../person/person/">person</a>
-                  </li>
                   <li class="toctree-l1"><a class="reference internal" href="../../person/portion/">portion</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../../person/temp_person/">temp_person</a>
-                  </li>
               </ul>
-              <p class="caption"><span class="caption-text">Product</span></p>
+              <p class="caption"><span class="caption-text">Product Models</span></p>
               <ul>
                   <li class="toctree-l1"><a class="reference internal" href="../../product/barcode/">barcode</a>
                   </li>
@@ -97,7 +97,7 @@
                   <li class="toctree-l1"><a class="reference internal" href="../../product/unit/">unit</a>
                   </li>
               </ul>
-              <p class="caption"><span class="caption-text">User</span></p>
+              <p class="caption"><span class="caption-text">User Models</span></p>
               <ul>
                   <li class="toctree-l1"><a class="reference internal" href="../../user/group/">group</a>
                   </li>
@@ -120,7 +120,7 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href="../../.." class="icon icon-home" alt="Docs"></a> &raquo;</li>
-          <li>Invoice &raquo;</li>
+          <li>Invoice Models &raquo;</li>
       <li>invoice</li>
     <li class="wy-breadcrumbs-aside">
     </li>
@@ -130,7 +130,7 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1>Invoice Table:</h1>
+                <h1 style="background-color:Gainsboro;">Invoice Table:</h1>
 <div style="margin-left:20px;">
 <table>
     <tr>
@@ -165,7 +165,6 @@
                 <li>pre:  0</li>
                 <li>buy:  1</li>
                 <li>sell: 2</li>
-                <li>read-only</li>
             </ul>
         </td>
         <td>✗</td>
@@ -358,7 +357,7 @@
 </table>
 </div>
 
-<h1>InvoiceItem Table:</h1>
+<h1 style="background-color:Gainsboro;">InvoiceItem Table:</h1>
 <div style="margin-left:20px;">
 <table>
     <tr>
@@ -485,7 +484,7 @@
 </div>
 
 <div>
-<h1>1- Creating An Invoice:</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">1- Creating An Invoice:</h1><div style="margin-left:20px;">
     <h3>Details:</h3>
     <table>
         <tr>
@@ -548,7 +547,7 @@ r = requests.post('http://domain/api/invoices', json=data)
 </div></div>
 
 <div>
-<h1>2- Listing Invoices:</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">2- Listing Invoices:</h1><div style="margin-left:20px;">
     <h3>Details:</h3>
     <table>
         <tr>
@@ -606,7 +605,7 @@ r = requests.get('http://domain/api/invoices', params=params)</code></pre>
 </div></div>
 
 <div>
-<h1>3- Retrieving An Invoice:</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">3- Retrieving An Invoice:</h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -631,7 +630,7 @@ r = requests.get('http://domain/api/invoices', params=params)</code></pre>
 </div></div>
 
 <div>
-<h1>4- Updating An Invoice</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">4- Updating An Invoice</h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -677,7 +676,7 @@ r = requests.put('http://domain/api/invoices/66', json=data)
 </div></div>
 
 <div>
-<h1>5- Deleting An Invoice:</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">5- Deleting An Invoice:</h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -702,7 +701,7 @@ r = requests.put('http://domain/api/invoices/66', json=data)
 </div></div>
 
 <div>
-<h1>6- Searching For Invoices</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">6- Searching For Invoices</h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -770,7 +769,7 @@ r = requests.get('http://domain/api/invoices/search', params=params)
 </div></div>
 
 <div>
-<h1>7- Listing Invoice Items</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">7- Listing Invoice Items</h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -795,7 +794,7 @@ r = requests.get('http://domain/api/invoices/search', params=params)
 </div></div>
 
 <div>
-<h1>8- Adding A New Item To Invoice </h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">8- Adding A New Item To Invoice </h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -835,7 +834,7 @@ r = requests.post('http://domain/api/invoices/66/items', json=data)
 </div></div>
 
 <div>
-<h1>9- Getting An Invoice Item:</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">9- Getting An Invoice Item:</h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -860,7 +859,7 @@ r = requests.post('http://domain/api/invoices/66/items', json=data)
 
 
 <div>
-<h1>10- Updating An Invoice Item:</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">10- Updating An Invoice Item:</h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -894,7 +893,7 @@ r = requests.put('http://domain/api/invoices/66/items/6', json=data)
 
 
 <div>
-<h1>11- Deleting An Invoice Item:</h1><div style="margin-left:20px;">
+<h1 style="background-color:Gainsboro;">11- Deleting An Invoice Item:</h1><div style="margin-left:20px;">
 <h3>Details:</h3>
     <table>
         <tr>
@@ -921,8 +920,8 @@ r = requests.put('http://domain/api/invoices/66/items/6', json=data)
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="../all_invoice/" class="btn btn-neutral float-left" title="all_invoice"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-        <a href="../pre_invoice/" class="btn btn-neutral float-right" title="pre_invoice">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../pre_invoice/" class="btn btn-neutral float-left" title="pre_invoice"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../all_invoice_mid_base/" class="btn btn-neutral float-right" title="all_invoice_mid">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -945,10 +944,10 @@ r = requests.put('http://domain/api/invoices/66/items/6', json=data)
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href="../all_invoice/" style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="../pre_invoice/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
-      <span><a href="../pre_invoice/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="../all_invoice_mid_base/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
